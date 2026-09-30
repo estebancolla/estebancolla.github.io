@@ -1,0 +1,8 @@
+---
+title: "Title of the note"
+date: 2026-10-01
+description: "One-line summary shown on the Notes page."
+---
+
+Copy this file to notes/YYYY-MM-DD-short-name.qmd (no leading underscore) and write here.
+Files starting with "_" are never published.

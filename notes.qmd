@@ -1,0 +1,10 @@
+---
+title: "Notes"
+draft: true   # delete this line (and uncomment Notes in _quarto.yml) when you post the first note
+listing:
+  contents: "notes/*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  categories: false
+---

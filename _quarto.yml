@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Esteban Colla-De-Robertis"
+  site-url: "https://estebancolla.github.io"
+  description: "Applied economist — land tenure, agricultural conservation, causal inference."
+  favicon: images/favicon.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      # Uncomment when you post your first note (and delete `draft: true` in notes.qmd):
+      # - href: notes.qmd
+      #   text: Notes
+    right:
+      - icon: envelope
+        href: "mailto:ecolla@up.edu.mx"
+        aria-label: Email
+      - icon: github
+        href: "https://github.com/estebancolla"
+        aria-label: GitHub
+      - text: ORCID
+        href: "https://orcid.org/0000-0002-0364-3445"
+      - text: RePEc
+        href: "https://ideas.repec.org/f/pco782.html"
+  page-footer:
+    left: "© 2026 Esteban Colla-De-Robertis"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles-dark.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

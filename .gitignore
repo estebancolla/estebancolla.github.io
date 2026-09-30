@@ -1,0 +1,11 @@
+/.quarto/
+/_site/
+.DS_Store
+.Rhistory
+.Rproj.user/
+**/*.quarto_ipynb
+
+# Kept on this computer only (not public yet / not used)
+papers/
+teaching/
+images/profile.jpg

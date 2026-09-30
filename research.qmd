@@ -1,0 +1,41 @@
+---
+title: "Research"
+listing:
+  - id: working-papers
+    contents: "papers/*/index.qmd"
+    type: default
+    sort: "date desc"
+    fields: [title, subtitle, date, description]
+    date-format: "YYYY"
+    categories: false
+  - id: publications
+    contents: publications.yml
+    type: table
+    sort: "date desc"
+    fields: [date, title, author, subtitle]
+    field-display-names:
+      date: "Year"
+      title: "Article"
+      author: "Authors"
+      subtitle: "Journal"
+    date-format: "YYYY"
+    sort-ui: false
+    filter-ui: false
+---
+
+## Publications
+
+::: {#publications}
+:::
+
+Full record on [ORCID](https://orcid.org/0000-0002-0364-3445) · [RePEc/IDEAS](https://ideas.repec.org/f/pco782.html)
+
+<!--
+Working papers: when a paper is posted on RePEc/arXiv/SSRN, add its link in
+papers/<slug>/index.qmd, delete `draft: true` there, and uncomment this block.
+
+## Working papers
+
+::: {#working-papers}
+:::
+-->

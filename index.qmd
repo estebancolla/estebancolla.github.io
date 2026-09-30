@@ -1,0 +1,35 @@
+---
+title: "Esteban Colla-De-Robertis"
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:ecolla@up.edu.mx"
+    - icon: person-badge
+      text: ORCID
+      href: "https://orcid.org/0000-0002-0364-3445"
+    - icon: journal-text
+      text: RePEc
+      href: "https://ideas.repec.org/f/pco782.html"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/estebancolla"
+---
+
+I am an economist and faculty member at the [Escuela de Gobierno y Economía](https://www.up.edu.mx), Universidad Panamericana.
+
+My research studies **land tenure and agricultural conservation**, using causal machine-learning methods (double/debiased machine learning, heterogeneous treatment effects, and sensitivity analysis) applied to Peru's National Agricultural Census (CENAGRO).
+
+I hold a PhD in Economics from ITAM. I teach development economics and international trade.
+
+## Research interests
+
+Development economics · Political economy · Agricultural and environmental economics · Land tenure and property rights
+
+## Recent publications
+
+- "Monetary Policy Committees, Independence, and Influence." *Games* (2026). [DOI](https://doi.org/10.3390/g17010006)
+- "Land Tenure Security and Agrarian Investments in the Peruvian Highlands." *Land Use Policy* (2021). [DOI](https://doi.org/10.1016/j.landusepol.2021.105651)
+
+[All publications →](research.qmd)

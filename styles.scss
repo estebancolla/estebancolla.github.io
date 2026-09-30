@@ -1,0 +1,13 @@
+/*-- scss:defaults --*/
+$primary: #1f4e79;
+$font-family-sans-serif: "Source Sans 3", system-ui, sans-serif;
+$headings-font-weight: 600;
+$navbar-bg: #ffffff;
+$navbar-fg: #1f4e79;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap');
+.paper-links a { margin-right: .6rem; }
+.listing-description { font-size: .95rem; }
+.quarto-about-jolla main, .quarto-about-jolla > *:not(.about-links):not(.about-sep) { text-align: left; }
+.quarto-about-jolla h1.title, .quarto-about-jolla .about-links { text-align: center; }
